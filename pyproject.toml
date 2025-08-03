@@ -1,6 +1,14 @@
 [project]
-name = "pythonproject"
+name = "PythonProject"
 version = "0.1.0"
-description = "Add your description here"
-requires-python = ">=3.13"
+description = "Default template for PDM package"
+requires-python = "==3.13.*"
 dependencies = []
+authors = [
+    {name = "", email = ""},
+]
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm]
+distribution = false
